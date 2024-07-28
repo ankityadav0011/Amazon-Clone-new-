@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+/* -------------------------------- HEADER SECTION ----------------------------------------------------- */
+.navbar{
+    height: 70px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 60px;
+    width: 160px;
+}
+.logo{
+    background-image: url("logo\ .jpg");
+    background-size: cover;
+    height: 60px;
+    width: 160px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* box2 */
+.addfirst{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.addsec{
+    font-size: 1rem;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+/* india and icon are inside same class so make it display flex to come on same line  */
+.addicon{
+    display:flex;
+    align-items:center;
+}
+.navsearch{
+    margin-top: 10px;
+    display: flex;
+    background-color:  pink;
+    width: 620px;
+    height: 40px;
+    border: 2px solid pink;
+    border-radius: 5px;
+    
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+.searchicon{
+    background-color: orange;
+    align-items: center;
+
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+
+
+}
+.searchselect{
+    background-color: #f3f3f3;
+    width: 50px;
+}
+.input{
+    width: 1900px;
+}
+/** box 4  **/
+.nav-signin{
+    margin-top: 20px;
+}
+span{
+    font-size: 0.8rem;
+}
+.navsex{
+    font-size: 0.87rem;
+    font-weight: 700;
+}
+.nav-return{
+    margin-top:20px ;
+}
+.nav-cart{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 36px;
+}
+/* ------------------------------------------FOR PANEL DESIGNING--------------------------------------------  */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex; 
+    color: white; 
+    align-items: center; 
+    justify-content: space-evenly;
+}
+.paneloptions{
+    width: 80%;
+    font-size: 0.85rem;
+}
+.paneloptions p{
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* ---------------------------------HERO SECTION----------------------------------------------------------- */
+.herosection{
+    background-image:url("hero3.jpg");
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+.herotext{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+
+    background-size: cover;
+    /* horizontally centre pe lane ke liye align items  */
+    align-items: center;
+    /* and vertically centre pe lane ke liye justify content centre  */
+    justify-content: center;
+    bottom: 25px;
+    position: relative;
+    width: 80%;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.herotext p {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+ 
+.herotext a {
+    color: #007195;
+    font-size: 0.85rem;
+    
+}
+/*----------------------------------------------- shop section -------------------------------------- */
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+    border: 2px solid black;
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    justify-content: center;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    
+    
+}
+.boximage{
+    background-image: url("img3.jpg");
+    height:400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-top: 16px;
+}
+.boximage2{
+    background-image: url("img4.jpg");
+    height:400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-top: 16px;
+}
+.boximage3{
+    background-image: url("img1.jpg");
+    height:400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-top: 16px;
+}
+.boximage4{
+    background-image: url("img2.jpg");
+    height:400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-top: 16px;
+}
+.boximage5{
+    background-image: url("img6.jpg");
+    height:400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-top: 16px;
+}
+.boximage6{
+    background-image: url("img7.gif");
+    height:400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-top: 16px;
+}
+.boximage7{
+    background-image: url("img8.gif");
+    height:400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-top: 16px;
+}
+.boximage8{
+    background-image: url("img9.jpg");
+    height:400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-top: 16px;
+}
+
+
+.boxcontent{
+    margin-left: 10px;
+}
+.boxcontent p {
+    color: #007185;
+}
+.footer{
+    margin-top: 15px;
+}
+.foot1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+}
+.foot2 a{
+    text-decoration: none;
+    color: #dddddd;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+.foot3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logolast{
+    background-image:url("logo\ .jpg");
+    background-size: cover;
+    height: 60px;
+    width: 160px;
+    
+}
+.footlast{
+    background-color: #0f1111;
+    height: 80px;
+}
+.footlast a {
+    color: white;
+    text-align: center;
+}
+.pages{
+    font-size: 0.8rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.pages a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.copyryt{
+    font-size:0.8rem ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+   
+
+
